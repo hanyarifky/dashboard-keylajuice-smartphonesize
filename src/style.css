@@ -548,12 +548,12 @@ video {
   display: flex;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-screen {
   height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -569,10 +569,11 @@ video {
   background-color: rgb(103 232 249 / var(--tw-bg-opacity));
 }
 
-.align-middle {
-  vertical-align: middle;
-}
-
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
